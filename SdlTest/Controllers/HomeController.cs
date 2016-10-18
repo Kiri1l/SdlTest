@@ -9,8 +9,9 @@ namespace SdlTest.Controllers
     public class HomeController : Controller
     {
         // GET: Home
-        public ActionResult Index()
+        public ActionResult Index(string test_string)
         {
+            ViewBag.test = test_string;
             return View();
         }
     }
