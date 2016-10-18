@@ -131,6 +131,7 @@
     <Content Include="scripts\jquery-1.10.2.min.js" />
     <Content Include="scripts\modernizr-2.6.2.js" />
     <Content Include="testwebform.aspx" />
+    <Content Include="vul_garant.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -146,6 +147,13 @@
     </Compile>
     <Compile Include="testwebform.aspx.designer.cs">
       <DependentUpon>testwebform.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="vul_garant.aspx.cs">
+      <DependentUpon>vul_garant.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vul_garant.aspx.designer.cs">
+      <DependentUpon>vul_garant.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
